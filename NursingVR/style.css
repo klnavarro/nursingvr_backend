@@ -1,0 +1,26 @@
+tr {
+   
+    text-align: left;
+    font-size:20px;
+  }
+  td {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+div {
+
+  text-align: center;
+  font-size:25px;
+  
+}
+table {
+
+   
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+  
+tr:nth-child(even) th {
+    background-color: rgb(180, 180, 180);
+  }
