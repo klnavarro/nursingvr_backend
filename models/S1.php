@@ -67,18 +67,18 @@ class S1
     $this->Ant_RUL = htmlspecialchars(strip_tags($this->Ant_RUL));
     $this->Ant_RML = htmlspecialchars(strip_tags($this->Ant_RML));
     $this->Ant_RLL = htmlspecialchars(strip_tags($this->Ant_RLL));
-    $this->Ant_RUL2 = htmlspecialchars(strip_tags($this->Ant_LUL));
+    $this->Ant_LUL = htmlspecialchars(strip_tags($this->Ant_LUL));
     $this->Ant_LLL = htmlspecialchars(strip_tags($this->Ant_LLL));
 
     $this->Post_RUL = htmlspecialchars(strip_tags($this->Post_RUL));
     $this->Post_RLL = htmlspecialchars(strip_tags($this->Post_RLL));
-    $this->Post_RUL2 = htmlspecialchars(strip_tags($this->Post_LUL));
+    $this->Post_LUL = htmlspecialchars(strip_tags($this->Post_LUL));
     $this->Post_LLL = htmlspecialchars(strip_tags($this->Post_LLL));
 
     $this->Lat_RUL = htmlspecialchars(strip_tags($this->Lat_RUL));
     $this->Lat_RML = htmlspecialchars(strip_tags($this->Lat_RML));
     $this->Lat_RLL = htmlspecialchars(strip_tags($this->Lat_RLL));
-    $this->Lat_RUL2 = htmlspecialchars(strip_tags($this->Lat_LUL));
+    $this->Lat_LUL = htmlspecialchars(strip_tags($this->Lat_LUL));
     $this->Lat_LLL = htmlspecialchars(strip_tags($this->Lat_LLL));
 
     $this->leftUnmeasured = htmlspecialchars(strip_tags($this->leftUnmeasured));
