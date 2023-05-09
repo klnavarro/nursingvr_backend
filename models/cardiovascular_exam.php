@@ -44,9 +44,9 @@ class cardiovascular_exam
 
     $stmt->bindParam(1, $this->RSB_2IS);
     $stmt->bindParam(2, $this->LSB_2IS);
-    $stmt->bindParam(3, $this->LSB_2IS);
-    $stmt->bindParam(4, $this->LSB_2IS);
-    $stmt->bindParam(5, $this->LSB_2IS);
+    $stmt->bindParam(3, $this->LSB_3IS);
+    $stmt->bindParam(4, $this->LSB_4IS);
+    $stmt->bindParam(5, $this->LSB_5IS);
     $stmt->bindParam(6, $this->carotid_L);
     $stmt->bindParam(7, $this->carotid_R);
     $stmt->bindParam(8, $this->radial_L);
